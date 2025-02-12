@@ -1,0 +1,13 @@
+namespace Cauculadora
+{
+    class Operacoes
+    {
+        public static void RealizarAdicao(
+            decimal var1,
+            decimal var2
+        )
+        {
+            Console.WriteLine($"A soma dos valores {var1} e {var2} e {var1 + var2}");
+        }
+    }
+} 
